@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -51,9 +56,15 @@ p{
   color:white;
 }
 
+.medium-f20{
+  font-family:mediumFont;
+  font-size:20px;
+  color:white;
+}
+
 .medium-f70{
   font-family:mediumFont;
-  font-size:70px;
+  font-size:56px;
   color:white;
 }
 
@@ -83,21 +94,36 @@ p{
 
 .semiBold-f52{
   font-family:semiBoldFont;
-  font-size:52px;
+  font-size:46px;
   color:white;
 }
 .semiBold-f36{
   font-family:semiBoldFont;
-  font-size:36px;
+  font-size:30px;
   color:white;
 }
 
+.regular-f20{
+  font-family:regularFont;
+  font-size:20px;
+  color:white;
+}
+.MuiDrawer-paper{
+  background-color: #0E0D1C !important;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+
+.MuiPaper-root{
+  background-color: rebeccapurple;
+}
 .purp-card{
-  background:#7722FC;
+  background-color:#7722FC;
 }
 
 .footer{
-  background:#0C0B17;
+  background-color:#0C0B17;
 }
 
 .flex-ci{
@@ -122,6 +148,11 @@ display: flex;
 }
 
 .white{
+  color:white
+}
+
+.white16{
+  font-size: 16px;
   color:white
 }
 

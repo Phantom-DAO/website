@@ -1,0 +1,22 @@
+.container{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 85%;
+    margin: auto;
+
+    .cards-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+// @media (max-width: 760px){
+//     .container{
+//         .cards-container{
+//             flex-direction: column;
+//         }
+//     }
+// }

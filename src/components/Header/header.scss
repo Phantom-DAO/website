@@ -1,0 +1,66 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-block: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #0E0D1C;
+
+    h3{
+
+    }
+
+    .nav-tabs{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+
+        
+    }
+
+    .clickable:hover{
+        cursor: pointer;
+        color: #7722FC;
+    }
+
+    .button-container{
+        padding: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 28px;
+        margin-left: 1rem;
+    }
+
+    .enter-app-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .ham {
+        display: none;
+    }
+
+}
+
+@media (max-width : 700px){
+    .header-container{
+        .nav-tabs{
+            display: none;
+        }
+
+        .ham{
+            display: block;
+            width: 25px;
+            height: 25px;
+        }
+
+        .logo{
+            height: 30px;
+        }
+    }
+    
+}
