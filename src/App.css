@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #0E0D1C;
+  color:#707070;
+}
+
+@font-face {
+  font-family: semiBoldFont;
+  src: url("./assets/Poppins/Poppins-SemiBold.otf");
+}
+
+@font-face {
+  font-family: mediumFont;
+  src: url("./assets/Poppins/Poppins-Medium.otf");
+}
+
+@font-face {
+  font-family: regularFont;
+  src: url("./assets/Poppins/Poppins-Regular.otf");
+}
+
+p{
+  font-family:regularFont;
+  font-size:20px;
+  color:#707070;
+}
+
+.regular{
+  font-family:regularFont;
+  font-size:20px;
+  color:#707070;
+}
+
+.medium-f36{
+  font-family:mediumFont;
+  font-size:36px;
+  color:white;
+}
+
+.medium-f30{
+  font-family:mediumFont;
+  font-size:30px;
+  color:white;
+}
+
+.medium-f20{
+  font-family:mediumFont;
+  font-size:20px;
+  color:white;
+}
+
+.medium-f70{
+  font-family:mediumFont;
+  font-size:56px;
+  color:white;
+}
+
+.medium-f20p{
+  font-size: 20px;
+  color:#7722FC;
+  font-family: mediumFont;
+}
+
+.medium-f20g{
+  color: rgb(255, 199, 104);
+  font-family: mediumFont;
+  font-size: 20px;
+}
+
+.medium-f20c{
+  color: #4AAEE3;
+  font-family: mediumFont;
+  font-size: 20px;
+}
+
+.medium-f20GItalic{
+  font-style: Italic;
+  color: rgb(255, 199, 104);
+  font-size: 14px;
+}
+
+.semiBold-f52{
+  font-family:semiBoldFont;
+  font-size:33px;
+  color:white;
+}
+.semiBold-f36{
+  font-family:semiBoldFont;
+  font-size:29.5px;
+  color:white;
+}
+
+.regular-f20{
+  font-family:regularFont;
+  font-size:20px;
+  color:white;
+}
+.MuiDrawer-paper{
+  background-color: #0E0D1C !important;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+
+.MuiPaper-root{
+  background-color: rebeccapurple;
+}
+.purp-card{
+  background-color:#7722FC;
+}
+
+.footer{
+  background-color:#0C0B17;
+}
+
+.flex-ci{
+  display: flex;
+  flex-direction: row;
+}
+.flex{
+display: flex;
+}
+.flex-child{
+  flex: 1;
+}
+
+@media(max-width : 768px){ 
+  .flex-ci{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .flex{
+    flex-direction: column;
+  }
+}
+
+.white{
+  color:white
+}
+
+.white16{
+  font-size: 16px;
+  color:white
+}
+
+.footer  p{
+  font-size:16px;
+}

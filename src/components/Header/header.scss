@@ -1,0 +1,88 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-block: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #0E0D1C;
+    margin-top:15px;
+    padding-top:20px;
+
+    .nav-tabs{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+
+        
+    }
+
+    .clickable:hover{
+        cursor: pointer;
+        color: #7722FC;
+    }
+
+    .button-container{
+        padding: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 28px;
+        margin-left: 1rem;
+    }
+
+    .enter-app-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .ham {
+        display: none;
+    }
+
+}
+
+@media (max-width : 814px){
+    .header-container{
+        .nav-tabs{
+            display: none;
+        }
+
+        #en{
+            display: none;
+        }
+
+        .ham{
+            display: block;
+            width: 25px;
+            height: 25px;
+        }
+
+        .logo{
+            height: 30px;
+        }
+    }
+    
+
+}
+
+element.style {
+    text-align: center;
+}
+
+
+@media (max-width: 500px){
+    .header-container .button-container{
+        padding: 0.5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.5rem;
+        border-radius: 16px;
+        margin-left: 0rem;
+    }
+    .white16 {
+        font-size: 14px;
+        color: white;
+    }
+}

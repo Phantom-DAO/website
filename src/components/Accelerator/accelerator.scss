@@ -1,0 +1,13 @@
+#acc-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+@media(max-width: 768px) {
+    .img-bar{
+        justify-content: center !important;
+    }
+}
