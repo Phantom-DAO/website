@@ -20,3 +20,18 @@
 //         }
 //     }
 // }
+
+.card-container:hover{
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    min-width: 250px;
+    flex: 1;
+    border:none;
+    background-color: #7722FC;
+    p{
+        color:white
+
+    }
+}

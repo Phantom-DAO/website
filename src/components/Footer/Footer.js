@@ -105,10 +105,17 @@ const Footer = () => {
                   <h1 class="semiBold-f36">Learn</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
-                  <p>Documentation</p>
+                  <Link
+                    href="https://www.notion.so/Phantom-Governance-01afd36a7b3c4d838d7456b84724e34e"
+                    target="_blank"
+                  >
+                    <p>Documentation</p>
+                  </Link>
                 </Box>
                 <Box sx={styles.footerCard}>
-                  <p>Medium</p>
+                  <Link href="https://medium.com/phantom-dao" target="_blank">
+                    <p>Medium</p>
+                  </Link>
                 </Box>
               </Box>
             </Grid>
@@ -123,7 +130,12 @@ const Footer = () => {
                   <h1 class="semiBold-f36">Join the community</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
-                  <p>Join Discord</p>
+                  <Link
+                    href="https://discord.com/invite/phantomdao"
+                    target="_blank"
+                  >
+                    <p>Join Discord</p>
+                  </Link>
                 </Box>
               </Box>
             </Grid>
