@@ -71,7 +71,7 @@ const Accelerator = () => {
           }}
         >
           <Box sx={{ margin: "3rem 0 0 0" }}>
-            <p className="semiBold-f36">Accelerator Verticals</p>
+            <p className="semiBold-f28">Accelerator Verticals</p>
           </Box>
           {rowGenerator(
             "Defi",

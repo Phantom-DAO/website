@@ -18,7 +18,7 @@ const Partner = () => {
           }}
         >
           <Box sx={{ margin: "2rem 0 0 0" }}>
-            <p className="semiBold-f36">Our Partners</p>
+            <p className="semiBold-f28">Our Partners</p>
           </Box>
           <Box
             sx={{
