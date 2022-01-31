@@ -9,10 +9,8 @@
     top: 0;
     z-index: 100;
     background-color: #0E0D1C;
-
-    h3{
-
-    }
+    margin-top:15px;
+    padding-top:20px;
 
     .nav-tabs{
         display: flex;
@@ -46,9 +44,13 @@
 
 }
 
-@media (max-width : 700px){
+@media (max-width : 814px){
     .header-container{
         .nav-tabs{
+            display: none;
+        }
+
+        #en{
             display: none;
         }
 
@@ -63,4 +65,24 @@
         }
     }
     
+
+}
+
+element.style {
+    text-align: center;
+}
+
+
+@media (max-width: 500px){
+    .header-container .button-container{
+        padding: 0.5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.5rem;
+        border-radius: 16px;
+        margin-left: 0rem;
+    }
+    .white16 {
+        font-size: 14px;
+        color: white;
+    }
 }
