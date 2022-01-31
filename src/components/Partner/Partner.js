@@ -1,7 +1,7 @@
 import { Box, Grid, Zoom } from "@material-ui/core";
 import { ReactComponent as Olympus } from "../../assets/icons/olympus.svg";
 import { ReactComponent as Frax } from "../../assets/icons/frax.svg";
-import SpiritLogo from "../../assets/icons/spiritswap-logo.png";
+import SpiritLogo from "../../assets/icons/spiritswap-logo-500.png";
 
 import "./partner.scss";
 const Partner = () => {
@@ -18,7 +18,7 @@ const Partner = () => {
           }}
         >
           <Box sx={{ margin: "2rem 0 0 0" }}>
-            <p className="semiBold-f36">Our Partners</p>
+            <p className="semiBold-f28">Our Partners</p>
           </Box>
           <Box
             sx={{

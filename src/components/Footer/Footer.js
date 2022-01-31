@@ -81,10 +81,11 @@ const Footer = () => {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
+                  marginTop: "12px",
                 }}
               >
                 <Box sx={styles.footerCardHead}>
-                  <h1 class="semiBold-f36">Products</h1>
+                  <h1 class="semiBold-f24">Products</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
                   <p>Bonds</p>
@@ -99,10 +100,11 @@ const Footer = () => {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
+                  marginTop: "12px",
                 }}
               >
                 <Box sx={styles.footerCardHead}>
-                  <h1 class="semiBold-f36">Learn</h1>
+                  <h1 class="semiBold-f24">Learn</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
                   <Link
@@ -124,10 +126,11 @@ const Footer = () => {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
+                  marginTop: "12px",
                 }}
               >
                 <Box sx={styles.footerCardHead}>
-                  <h1 class="semiBold-f36">Join the community</h1>
+                  <h1 class="semiBold-f24">Join the community</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
                   <Link
