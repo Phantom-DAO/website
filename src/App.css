@@ -159,3 +159,18 @@ display: flex;
 .footer  p{
   font-size:16px;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7722FC;
+  border-radius: 6px;
+}
