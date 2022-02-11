@@ -21,7 +21,6 @@ function App() {
       <About />
       <TreasuryMakeup/>
       <ProtocolBasics/>
-      <Auction />
       <Accelerator/>
       <Partner />
       <Footer />

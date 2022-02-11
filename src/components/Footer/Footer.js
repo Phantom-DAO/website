@@ -72,7 +72,7 @@ const Footer = () => {
                     textAlign: "left",
                   }}
                 >
-                  <p class="white">Ⓒ 2021 - Phantom all rights reserved</p>
+                  <p className="white">Ⓒ {new Date().getFullYear()} - Phantom all rights reserved</p>
                 </Box>
               </Box>
             </Grid>
@@ -85,7 +85,7 @@ const Footer = () => {
                 }}
               >
                 <Box sx={styles.footerCardHead}>
-                  <h1 class="semiBold-f24">Products</h1>
+                  <h1 className="semiBold-f24">Products</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
                   <p>Bonds</p>
@@ -104,7 +104,7 @@ const Footer = () => {
                 }}
               >
                 <Box sx={styles.footerCardHead}>
-                  <h1 class="semiBold-f24">Learn</h1>
+                  <h1 className="semiBold-f24">Learn</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
                   <Link
@@ -130,7 +130,7 @@ const Footer = () => {
                 }}
               >
                 <Box sx={styles.footerCardHead}>
-                  <h1 class="semiBold-f24">Join the community</h1>
+                  <h1 className="semiBold-f24">Join the community</h1>
                 </Box>
                 <Box sx={styles.footerCard}>
                   <Link
